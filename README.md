@@ -15,8 +15,8 @@ In this step, we'll start creating our Javascript function for adding a todo ite
 
 #### Instructions
 
-- In `index.js`, create a new function called `addTodo` that takes in an `event` as a parameter.
-- Use `document.createElement` to create a new `li` element that will hold our new todo item.
+X- In `index.js`, create a new function called `addTodo` that takes in an `event` as a parameter.
+X- Use `document.createElement` to create a new `li` element that will hold our new todo item.
 - We need to get the value of our input field to add it to our list. Use `getElementById` to get the `value` property of the input.
 - Set the `innerText` property of our recently created `li` element to the `value` of the input we just found.
 - Then, use `querySelector` to find the `ul` element in our page and use `appendChild` to insert the `li` element we created into the DOM.
